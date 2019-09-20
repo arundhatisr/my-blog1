@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <link rel="stylesheet" type="text/css" href="css/style2.css">
+
+  <title>upload form</title>
+  <style>
+table{
+	border:3px solid white;
+	padding:5px;
+}
+table{
+border-spacing:20px;
+}
+</style>
+  </head>
+<body>
+
+<div class="a">
+
+<h1>UPLOAD FORM</h1><br><br><br>
+</div>
+<form action="connect.php" method="post">
+
+     <table>
+           <tr>
+               <td>
+                   NAME:
+               </td>
+                <td>
+                   <input type=”text” name=”username”>
+                </td>
+           </tr>
+            <tr>
+                 <td>
+                   PHONE NO:
+                 </td>
+                 <td>
+                  <input type=”text” name=”phone_no”>
+                 </td>
+           </tr>
+		   <tr>
+				<td>
+				    ADDRESS:
+				</td>
+				<td>
+				    <input type="text" name="address">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				    LOCALITY:
+				</td>
+				<td>
+				    <input type="text" name="locality">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				    CITY:
+				</td>
+				<td>
+				    <input type="text" name="city">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				    STATE:
+				</td>
+				<td>
+				    <input type="text" name="state">
+				</td>
+			</tr>
+<tr>
+				<td>
+				    PINCODE:
+				</td>
+				<td>
+				    <input type="text" name="pincode">
+				</td>
+			</tr>
+
+		</table>
+</form>
+<br><form>
+  SELECT IMAGE:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+  <br><input type="submit" value="Submit" name="submit" style="background-color:gray;color:solid black;">
+</form>
+</body>
+</html>
