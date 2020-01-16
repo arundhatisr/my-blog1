@@ -5,3 +5,6 @@ from . import views
 
 def Upload(request):
     return render(request, 'blog/Upload.html', {'Upload':Upload})
+
+def image(request):
+    return render(request, 'blog/image.html', {})
